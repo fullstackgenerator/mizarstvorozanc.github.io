@@ -1,0 +1,281 @@
+body {
+  margin: 0;
+  background-image: url(images/ostalo/wood.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;  
+}
+
+.white-background {
+  position: relative;
+  background-color: rgb(219, 219, 219, 0.8);
+  -moz-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+  -webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+  box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+}
+
+.text {
+  position: relative;
+  color: rgb(0, 0, 0);
+  font-family: "Montserrat";
+  word-wrap: break-word;
+  text-align: justify;
+  letter-spacing: 0.5;
+  line-height: 160%;
+}
+
+.back {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border-color: black;
+  color: black;
+  border-width: 1px;
+  border-radius: 2px;
+  font-family: "Montserrat";
+  width: 80px;
+  height: 30px;
+  top: 4vh;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.back:hover {
+  border-color: black;
+  border-width: 2px;
+}
+
+a:link,
+a:visited {
+  color:rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+@media(max-width:767px) {
+
+  body {
+    height: auto;
+  }
+
+  .white-background {
+    margin-top: 11.5vh;
+    height: auto;
+ }
+
+  .text {
+    font-size: 15px;
+    padding: 5% 5% 12% 5%;
+  
+  }
+
+  .back {
+    font-size: 15px;
+    top: 4vh;
+  }
+}
+
+@media(min-width:768px){
+
+  body {
+    height: 100vh;
+  }
+
+  .white-background {
+     margin-top: 15.5vh;
+     height: auto;
+  }
+  
+  .text {
+    font-size: 16px;
+    padding: 5%;
+  }
+  
+  .back {
+    margin-top: -1vh;
+    font-size: 16px;
+    margin-bottom: 2.5vh;
+  }
+}
+
+@media(min-width:820px){
+
+  body {
+    height: 100vh;
+  }
+
+  .white-background {
+     margin-top: 21.5vh;
+     height: auto;
+  }
+  
+  .text {
+    font-size: 16px;
+    padding: 5%;
+  }
+  
+  .back {
+    margin-top: -1.5vh;
+    margin-bottom: 2.7vh;
+    font-size: 16px;
+
+  }
+}
+
+@media(min-width:1024px){
+
+  body {
+    height: 100vh;
+  }
+
+  .white-background {
+     margin-top: 27vh;
+     height: auto;
+  }
+  
+  .text {
+    font-size: 16px;
+    padding-top: 5%;
+  }
+  
+  .back {
+    margin-top: -1.5vh;
+    font-size: 16px;
+  }
+}
+
+@media(min-width:1080px){
+
+  body {
+    height: 100vh;
+  }
+
+  .white-background {
+     margin-top: 31vh;
+     height: auto;
+  }
+  
+  .text {
+    font-size: 16px;
+    padding-top: 5%;
+  }
+  
+  .back {
+    margin-top: -2.5vh;
+    font-size: 16px;
+  }
+}
+
+@media(min-width: 1280px) {
+
+  .white-background {
+      margin-top: 11vh;
+      height: auto;
+  }
+  
+  .text {
+    font-size: 14px;
+    padding: 3%;
+  }
+  
+  .back {
+    margin-top: 4vh;
+    margin-bottom: 1vh;
+    font-size: 14px;
+  }  
+}
+
+@media(min-width:1368px) {
+
+  .white-background {
+     margin-top: 12vh;
+     height: auto;
+  }
+  
+  .text {
+    font-size: 15px;
+    padding: 3%;
+  }
+  
+  .back {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    font-size: 15px;
+  }
+}
+
+@media(min-width:1440px) {
+
+  .white-background {
+     margin-top: 14vh;
+     height: auto;
+  }
+  
+  .text {
+    font-size: 15px;
+    padding: 3%;
+  }
+  
+  .back {
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+    font-size: 15px;
+  }
+}
+
+@media(min-width:1536px) {
+
+  .white-background {
+     margin-top: 19vh;
+     height: auto;
+  }
+  
+  .text {
+    font-size: 16px;
+    padding: 3%;
+  }
+  
+  .back {
+    margin-top: -1vh;
+    font-size: 16px;
+  }
+}
+
+  @media(min-width:1600px) {
+
+  .white-background {
+     margin-top: 15vh;
+     height: auto;
+  }
+  
+  .text {
+    font-size: 17px;
+    padding: 3%;
+  }
+  
+  .back {
+    margin-top: 2vh;
+    font-size: 17px;
+  }
+}
+
+  @media(min-width:1920px) {
+
+  .white-background {
+     margin-top: 27vh;
+     height: auto;
+  }
+  
+  .text {
+    font-size: 20px;
+    padding-top: 3%;
+  }
+  
+  .back {
+    margin-top: -1.9vh;
+    margin-bottom: 1.3vh;
+    font-size: 20px;
+  }
+}
