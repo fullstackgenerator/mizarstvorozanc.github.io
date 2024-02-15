@@ -25,8 +25,8 @@ use PHPMailer\PHPMailer\Exception;
 //Set this to true if SMTP host requires authentication to send email
         $mail->SMTPAuth = true;
 //Provide username and password
-$mail->Username = "info@epicdev.si";
-$mail->Password = "k93hafP8";
+$mail->Username = "";
+$mail->Password = "";
 //If SMTP requires TLS encryption then set it
         $mail->SMTPSecure = "tls";
 //Set TCP port to connect to
