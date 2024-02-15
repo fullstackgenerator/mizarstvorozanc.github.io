@@ -21,18 +21,18 @@ use PHPMailer\PHPMailer\Exception;
 //Set PHPMailer to use SMTP.
         $mail->isSMTP();
 //Set SMTP host name
-        $mail->Host = "mail.epicdev.si";
+        $mail->Host = "";
 //Set this to true if SMTP host requires authentication to send email
         $mail->SMTPAuth = true;
 //Provide username and password
 $mail->Username = "";
 $mail->Password = "";
 //If SMTP requires TLS encryption then set it
-        $mail->SMTPSecure = "tls";
+        $mail->SMTPSecure = "";
 //Set TCP port to connect to
-        $mail->Port = 587;
+        $mail->Port = ;
 
-        $mail->From = "info@epicdev.si";
+        $mail->From = "";
         $mail->FromName = $name;
 
         $mail->addAddress($email, $name);
