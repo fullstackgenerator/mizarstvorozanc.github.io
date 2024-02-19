@@ -30,7 +30,7 @@ $mail->Password = "";
 //If SMTP requires TLS encryption then set it
         $mail->SMTPSecure = "";
 //Set TCP port to connect to
-        $mail->Port = ;
+        $mail->Port = "";
 
         $mail->From = "";
         $mail->FromName = $name;
